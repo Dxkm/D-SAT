@@ -1,7 +1,6 @@
 # D-SAT
 This repo is the official implementation of "D-SAT:Dual Semantic Aggregation Transformer with dual attention for Medical Image Segmentation"
 
-# 
 
 # Reference
 Some of the codes in this repo are borrowed from
@@ -10,3 +9,9 @@ TransUnet
 HiFormer
 UNext
 Awesome U-Net
+
+# Citation
+
+
+# Questions
+Please drop an email to dxkm622@gmail.com
