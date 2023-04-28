@@ -5,7 +5,7 @@ This repo is the official implementation of "D-SAT:Dual Semantic Aggregation Tra
 # Reference
 Some excellent work was drawn on:
 
---[CSWin Transformer](https://github.com/microsoft/CSWin-Transformer)
+[CSWin Transformer](https://github.com/microsoft/CSWin-Transformer)
 
 [TransUnet](https://github.com/Beckschen/TransUNet)
 
