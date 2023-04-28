@@ -3,20 +3,20 @@ This repo is the official implementation of "D-SAT:Dual Semantic Aggregation Tra
 
 
 # Reference
-Some of the codes in this repo are borrowed from
+Some excellent work was drawn on:
 
-CSWin Transformer
+[CSWin Transformer](https://github.com/microsoft/CSWin-Transformer)
 
-TransUnet
+[TransUnet](https://github.com/Beckschen/TransUNet)
 
-HiFormer
+[HiFormer](https://github.com/amirhossein-kz/HiFormer)
 
-UNext
+[UNext](https://github.com/jeya-maria-jose/UNeXt-pytorch)
 
-Awesome U-Net
+[Awesome U-Net](https://github.com/NITR098/Awesome-U-Net)
 
 # Citation
 
 
 # Questions
-Please drop an email to dxkm622@gmail.com
+Please contact the author by [email](dxkm622@gmail.com)
