@@ -10,7 +10,7 @@ img_ext: .jpg
 in_channels: 3
 input_h: 224
 input_w: 224
-item_name: A61
+item_name: ACDC
 list_dir: ../Data/Synapse/lists/lists_Synapse
 lr: 0.0001
 lr_scheduler: Reduce
