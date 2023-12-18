@@ -45,7 +45,7 @@ def parse_args():
     parser.add_argument('--input_w', type=int, default=224, help='image width')
     parser.add_argument('--input_h', type=int, default=224, help='image height')
     parser.add_argument('--epochs', type=int, default=200, help='Number of total epochs to run')
-    parser.add_argument('--batch_size', type=int, default=4, help='Mini-batch size (default: 8)')
+    parser.add_argument('--batch_size', type=int, default=8, help='Mini-batch size (default: 8)')
     parser.add_argument('--save_interval', type=int, default=5, help='evaluation epoch')
 
     # optimizer and scheduler
