@@ -65,13 +65,13 @@ def main():
             model.load_state_dict(torch.load('results/%s/epoch_249.pth' % config['item_name']), strict=False)
             inference(config, model, test_loader=Synapse_test_loader(config), test_save_path=test_save_path)
         elif config['dataset'] == 'ACDC':
-            model.load_state_dict(torch.load('results/%s/model.pth' % config['item_name']), strict=False)
+            model.load_state_dict(torch.load('results/%s/Best.pth' % config['item_name']), strict=False)
             inference(config, model, test_loader=acdc_test_loader(config), test_save_path=test_save_path)
     elif config['dataset'] == 'ISIC2018':
-        model.load_state_dict(torch.load('results/%s/model.pth' % config['item_name']), strict=False)
+        model.load_state_dict(torch.load('results/%s/Best.pth' % config['item_name']), strict=False)
         inf(config, model)
     else:
-        model.load_state_dict(torch.load('results/%s/model.pth' % config['item_name']), strict=False)
+        model.load_state_dict(torch.load('results/%s/Best.pth' % config['item_name']), strict=False)
         accuracy(config, model)
 
 
