@@ -1,5 +1,5 @@
 # D-SAT
-This repo is the official implementation of "D-SAT:Dual Semantic Aggregation Transformer with Dual Attention for Medical Image Segmentation"
+This repo is the official implementation of "D-SAT: dual semantic aggregation transformer with dual attention for medical image segmentation"
 
 
 # Reference
