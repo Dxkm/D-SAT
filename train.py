@@ -17,10 +17,10 @@ from utils.utils import count_params, str2bool, random_seed
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--item_name', default='test_acdc', help='The item name')
+    parser.add_argument('--item_name', default='test_Synapse', help='The item name')
 
     # dataset
-    parser.add_argument('--dataset', type=str, default='ACDC',
+    parser.add_argument('--dataset', type=str, default='Synapse',
                         choices=['ISIC2018', 'Kvasir-SEG', 'Synapse', 'ACDC'], help='dataset')
     parser.add_argument('--num_classes', type=int, default=1, help='Number of classes')
     parser.add_argument('--output_dir', type=str, default='./results', help='root dir for output log')
