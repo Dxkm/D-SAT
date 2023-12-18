@@ -21,7 +21,7 @@ def parse_args():
 
     # dataset
     parser.add_argument('--dataset', type=str, default='ACDC',
-                        choices=['ISIC2018', 'CVC-ClinicDB', 'Kvasir-SEG', 'Synapse', 'ACDC'], help='dataset')
+                        choices=['ISIC2018', 'Kvasir-SEG', 'Synapse', 'ACDC'], help='dataset')
     parser.add_argument('--num_classes', type=int, default=1, help='Number of classes')
     parser.add_argument('--output_dir', type=str, default='./results', help='root dir for output log')
 
