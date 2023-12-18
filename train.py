@@ -84,6 +84,7 @@ def main():
         config['num_classes'] = 9
         config['epochs'] = 250
     elif config['dataset'] == 'ACDC':
+        config['batch_size'] = 4
         config['num_classes'] = 4
         config['epochs'] = 100
         config['lr_scheduler'] = 'Reduce'
