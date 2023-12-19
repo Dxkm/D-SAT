@@ -2,7 +2,7 @@
 This repo is the official implementation of "[D-SAT: dual semantic aggregation transformer with dual attention for medical image segmentation](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=D-SAT%3A+dual+semantic+aggregation+transformer+with+dual+attention+for+medical+image+segmentation&btnG=)"
 
 # Main results
-The main results for D-SAT can be find in release
+The main results for D-SAT can be found in the release, please download the weights and place them in the corresponding directory.
 
 # Reference
 Some excellent work was drawn on:
